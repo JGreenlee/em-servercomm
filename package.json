@@ -1,15 +1,8 @@
 {
-  "name": "cordova-plugin-em-server-communication",
+  "name": "em-servercomm",
   "version": "1.2.5",
   "description": "Package that handles communication with the server",
   "license": "BSD-3-clause",
-  "cordova": {
-    "id": "cordova-plugin-em-server-communication",
-    "platforms": [
-      "android",
-      "ios"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/e-mission/cordova-server-communication.git"
@@ -21,24 +14,6 @@
     "ecosystem:cordova",
     "cordova-ios",
     "cordova-android"
-  ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.6.0"
-    },
-    {
-      "name": "cordova-android",
-      "version": ">=6.0.0"
-    },
-    {
-      "name": "android-sdk",
-      "version": ">=26"
-    },
-    {
-      "name": "apple-ios",
-      "version": ">=10.0.0"
-    }
   ],
   "author": "K. Shankari",
   "bugs": {

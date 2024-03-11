@@ -17,6 +17,11 @@ gen/
 build/
 /*/build/
 
+# XCode files
+*.xcuserdata
+*.xcuserstate
+xcuserdata/*
+
 # Local configuration file (sdk path, etc)
 local.properties
 
@@ -25,3 +30,10 @@ proguard/
 
 # Log Files
 *.log
+
+#Mac specific stuff
+.DS_Store
+
+# IDE folders
+.idea/
+.vscode/

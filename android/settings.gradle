@@ -1,0 +1,11 @@
+/* This is a way to reference local modules so they can be included as dependencies.
+  Use it in build.gradle > dependencies */
+
+include ':em-unified-logger'
+project(':em-unified-logger').projectDir = new File('../../em-unified-logger/android')
+
+include ':em-connection-settings'
+project(':em-connection-settings').projectDir = new File('../../em-connection-settings/android')
+
+include ':em-opcodeauth'
+project(':em-opcodeauth').projectDir = new File('../../em-opcodeauth/android')
